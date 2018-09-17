@@ -1,10 +1,9 @@
 '''
 This program takes the input string and capitalizes first letter of every word in the string
 '''
+# Naive approach
 
-
-
-def LetterCapitalize(str): 
+def LetterCapitalize(str):
     new_str=""
     cc=False
     for i in range(len(str)):
@@ -21,6 +20,5 @@ def LetterCapitalize(str):
     return new_str
 
 
-      
 print(LetterCapitalize(input("Please enter a string to capitalize\n")))
 
