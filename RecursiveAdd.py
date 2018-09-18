@@ -6,6 +6,6 @@ def recursiveAdd(num):
     if num == 1:
         return 1
     else:
-        return num + SimpleAdding(num -1)
+        return num + recursiveAdd(num-1)
 
-print recursiveAdd(int(input("Please input a number\n"))) 
+print(recursiveAdd(int(input("Please input a number: "))))

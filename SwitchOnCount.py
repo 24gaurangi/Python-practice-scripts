@@ -16,5 +16,4 @@ def count_switch_changes(switch_states):
             if all(switch_states):
                 break
         templist.append(1)
-        #print(switch_states,ct)
     return(count)

@@ -17,4 +17,4 @@ def LongestWord(sen):
             longestword=word
     return longestword
  
-print LongestWord(input("Please enter a string\n"))
+print(LongestWord(input("Please enter a string: \n")))

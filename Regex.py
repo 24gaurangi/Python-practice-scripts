@@ -1,5 +1,5 @@
 '''
-This function validates input string against a regex
+This function validates input string against a regex : (+char+)*
 '''
 
 def SimpleSymbols(str): 
@@ -15,4 +15,4 @@ def SimpleSymbols(str):
                 
     return valid
 
-print SimpleSymbols(input()) 
+print(SimpleSymbols(input()))
