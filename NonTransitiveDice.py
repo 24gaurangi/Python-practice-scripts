@@ -10,7 +10,7 @@ def firstNotRepeatingCharacter(s):
             #print(seen)
             if s.count(i)==1:
                 return i
-    return "_"
+    return "No non-repeating character found."
 
 s=input("Please enter an input string: ")
 print("Output is : ", firstNotRepeatingCharacter(s))
